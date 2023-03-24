@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2> CRUD application</h2>
+        <table>
+            <tr>
+                <td><label for="">stt</label></td>
+                <td>:<input id="sttProduct" type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">Tên Sản Phẩm</label></td>
+                <td>:<input id="nameProduct" type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">Giá Sản phẩm</label></td>
+                <td>:<input id="priceProduct" type="text"></td>
+            </tr>
+            <tr>
+                <td><button onclick="addProduct()">AddProduct</button></td>
+            </tr>
+        </table>
+  
+    </div>
+    <table id="tableProduct" border="1px">
+        <tr>
+            <td>stt</td>
+            <td>Tên Sản Phẩm</td>
+            <td>Giá Sản Phẩm</td>
+            <td>
+                <button>xóa</button>
+                <button>Sửa</button>
+            </td>
+        </tr>
+    </table>
+  
+
+
+    <script src="./crud_local.js"></script>
+</body>
+</html>
